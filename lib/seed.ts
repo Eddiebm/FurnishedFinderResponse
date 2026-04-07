@@ -41,7 +41,7 @@ Utilities + internet included (capped at $200/mo). Everything provided — move 
     utilitiesIncluded: true,
     furnishedFinderUrl: 'https://www.furnishedfinder.com/property/467891_1',
     listingTitle: 'Furnished 3BR Home | Florissant, MO | Near Barnes-Jewish & SLU Hospital | Utilities Included',
-    description: `Comfortable, fully furnished 3-bedroom home in Florissant — a quiet St. Louis suburb perfect for travel nurses, healthcare professionals, and relocating families.
+    description: `Comfortable, fully furnished 3-bedroom brick ranch home in Florissant — a quiet St. Louis suburb perfect for travel nurses, healthcare professionals, and relocating families. Large private yard with mature trees, bright open living spaces, and dark hardwood floors throughout.
 
 3 bedrooms, fully furnished | Full kitchen | Living room | In-unit laundry | Private outdoor space
 
