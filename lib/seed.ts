@@ -17,15 +17,14 @@ export const PROPERTY_ACCOUNTS = [
     pricePerMonth: 2300,
     utilitiesIncluded: true,
     furnishedFinderUrl: 'https://www.furnishedfinder.com/property/304446_1',
-    listingTitle: 'Furnished 3BR Home | Tower Grove East | Utilities Included | Available Now',
-    description: `Spacious, fully furnished 3-bedroom home in walkable Tower Grove East — ideal for travel nurses, relocating professionals, or small families.
+    listingTitle: 'Furnished 3BR Home | Tower Grove East | Move-In Ready | Utilities Included',
+    description: `Beautifully furnished and staged 3-bedroom home in walkable Tower Grove East — move-in ready for travel nurses, relocating professionals, and small families.
 
-Bedrooms: Blue Room, White Room, Pink Room (convertible to office on request)
-Full kitchen with stainless steel appliances | Cozy living room | In-unit basement laundry | Large veranda with fenced yard
+Living room with sofa and smart TV | Formal dining room with coffered ceiling | Full kitchen with stainless appliances | Two furnished bedrooms with beds and linens | Two bathrooms | In-unit basement laundry | Fenced yard
 
-Location: Steps from parks, grocery stores, restaurants, and public transit. Minutes from major hospital systems.
+Location: Steps from parks, grocery stores, restaurants, and public transit. Minutes from Barnes-Jewish, SLU Hospital, and major medical corridors.
 
-Utilities + internet included (capped at $200/mo). Fully furnished — move in with just your suitcase. Pets welcome (fee applies). Up to 3 guests base rate. Single-room rentals available (shared common spaces). Minimum stay: 30 days.`,
+Utilities + internet included (capped at $200/mo). Everything provided — move in with just your suitcase. Pets welcome (fee applies). Up to 3 guests base rate. Single-room rentals available at reduced rates. Minimum stay: 30 days.`,
     houseRules: 'Base rate covers up to 3 occupants. Pets welcome with additional fee. Single-room rentals available at reduced rates. Additional tenants subject to small monthly increase.',
   },
   {
