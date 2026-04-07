@@ -14,7 +14,8 @@ export const PROPERTY_ACCOUNTS = [
     type: '3BR/1BA House',
     bedrooms: 3,
     bathrooms: 1,
-    pricePerMonth: 2300,
+    pricePerMonth: 2500,
+    available: true,
     utilitiesIncluded: true,
     furnishedFinderUrl: 'https://www.furnishedfinder.com/property/304446_1',
     listingTitle: 'Furnished 3BR Home | Tower Grove East | Move-In Ready | Utilities Included',
@@ -26,6 +27,8 @@ Location: Steps from parks, grocery stores, restaurants, and public transit. Min
 
 Utilities + internet included (capped at $200/mo). Everything provided — move in with just your suitcase. Pets welcome (fee applies). Up to 3 guests base rate. Single-room rentals available at reduced rates. Minimum stay: 30 days.`,
     houseRules: 'Base rate covers up to 3 occupants. Pets welcome with additional fee. Single-room rentals available at reduced rates. Additional tenants subject to small monthly increase.',
+    forSale: false,
+    askingPrice: null,
   },
   {
     propertyEmail: 'ayiteybm@gmail.com',
@@ -38,6 +41,7 @@ Utilities + internet included (capped at $200/mo). Everything provided — move 
     bedrooms: 3,
     bathrooms: 2,
     pricePerMonth: 2000,
+    available: true,
     utilitiesIncluded: true,
     furnishedFinderUrl: 'https://www.furnishedfinder.com/property/467891_1',
     listingTitle: 'Furnished 3BR Home | Florissant, MO | Near Barnes-Jewish & SLU Hospital | Utilities Included',
@@ -49,6 +53,8 @@ Location: 10 min to Barnes-Jewish Hospital | 8 min to SLU Hospital | Easy access
 
 Utilities + internet included (capped at $150/mo). Fully furnished — move in with just your suitcase. Minimum stay: 30 days. Base rate covers up to 3 occupants. Pets considered. Additional guests accommodated for a small fee.`,
     houseRules: 'Base rate covers up to 3 occupants. Pets considered. Additional guests accommodated for a small monthly fee.',
+    forSale: false,
+    askingPrice: null,
   },
   {
     propertyEmail: 'auntiecomfortoasis@gmail.com',
@@ -60,18 +66,21 @@ Utilities + internet included (capped at $150/mo). Fully furnished — move in w
     type: '3BR+/2BA House',
     bedrooms: 3,
     bathrooms: 2,
-    pricePerMonth: 2100,
+    pricePerMonth: 2895,
+    available: true,
     utilitiesIncluded: true,
     furnishedFinderUrl: 'https://www.furnishedfinder.com/property/401550_1',
     listingTitle: 'Furnished 3BR+/2BA Home | South St. Louis | Near Hospitals & Hwy 55 | Utilities Included',
-    description: `Spacious 1,500 sq ft furnished home in a quiet South St. Louis neighborhood — ideal for travel nurses, medical staff, and relocating professionals.
+    description: `Spacious furnished home in a quiet South St. Louis neighborhood — ideal for travel nurses, medical staff, and relocating professionals.
 
-3 bedrooms + flex room (converts to 4th bedroom on request) | 2 full bathrooms | Open kitchen + dining area | 65" smart TV + fast Wi-Fi | Dedicated work/study space | Washer/dryer on main floor
+3 bedrooms + flex room (converts to 4th bedroom on request) | 2 full bathrooms | Full stainless kitchen with gas range, commercial hood vent, dishwasher, and French door refrigerator | White subway tile backsplash | Open living/dining flow with arched doorway | Leather reclining sofa | Pub dining table | Nest smart thermostat | In-unit washer | Fenced backyard with rear deck access | Central air
 
 Location: Easy access to Highway 55 | Minutes to downtown St. Louis | Near bus line | Close to Mercy Hospital, SSM Health, and Barnes-Jewish corridor
 
 Utilities + internet included (capped at $150/mo). Fully furnished — move in with just your suitcase. Minimum stay: 30 days. Up to 3 guests base rate. 4th bedroom available for additional fee. Pets considered.`,
     houseRules: 'Up to 3 guests base rate. 4th bedroom (flex room) available for additional fee. Pets considered. Minimum stay 30 days.',
+    forSale: true,
+    askingPrice: null,
   },
   {
     propertyEmail: 'eddie@bannermanmenson.com',
@@ -84,14 +93,17 @@ Utilities + internet included (capped at $150/mo). Fully furnished — move in w
     bedrooms: 0,
     bathrooms: 0,
     pricePerMonth: 3200,
+    available: true,
     utilitiesIncluded: false,
     furnishedFinderUrl: '',
     listingTitle: '',
     description: '',
     houseRules: '',
+    forSale: false,
+    askingPrice: null,
   },
   {
-    propertyEmail: '',              // fill in — no email assigned yet
+    propertyEmail: 'eddie@bannermanmenson.com',
     propertyEmailName: 'Bannerman Group — Keokuk',
     address: '3110 Keokuk',
     city: 'St. Louis',
@@ -100,9 +112,10 @@ Utilities + internet included (capped at $150/mo). Fully furnished — move in w
     type: '3BR+/2BA House',
     bedrooms: 3,
     bathrooms: 2,
-    pricePerMonth: 0,               // fill in dashboard
-    utilitiesIncluded: false,       // confirm and update
-    furnishedFinderUrl: '',         // not yet listed
+    pricePerMonth: 1500,
+    available: true,
+    utilitiesIncluded: false,
+    furnishedFinderUrl: '',
     listingTitle: 'Furnished 3BR+ Home | South St. Louis | Original Hardwoods | Near Hwy 55',
     description: `Character-rich furnished home in South St. Louis with original hardwood floors, cast iron radiators, and classic architectural details throughout.
 
@@ -112,10 +125,11 @@ Location: South St. Louis 63118 | Easy access to Highway 55 | Minutes to downtow
 
 Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
     houseRules: 'Minimum stay 30 days. Contact for pet policy and occupancy details.',
+    forSale: false,
+    askingPrice: null,
   },
   {
-    // 3169 Oregon Ave — high-finish renovation, original architectural details
-    propertyEmail: '',              // fill in — no email assigned yet
+    propertyEmail: 'eddie@bannermanmenson.com',
     propertyEmailName: 'Bannerman Group — Oregon',
     address: '3169 Oregon',
     city: 'St. Louis',
@@ -124,10 +138,11 @@ Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
     type: '3BR/1BA House',
     bedrooms: 3,
     bathrooms: 1,
-    pricePerMonth: 0,               // fill in dashboard
-    utilitiesIncluded: false,       // confirm and update
+    pricePerMonth: 2500,
+    available: false,
+    utilitiesIncluded: false,
     furnishedFinderUrl: '',
-    listingTitle: 'Renovated 3BR Home | South St. Louis | Original Details | Available Now',
+    listingTitle: 'Renovated 3BR Home | South St. Louis | Original Details | Available Soon',
     description: `Beautifully renovated 3-bedroom home in South St. Louis with original architectural character throughout — stained glass entry vestibule, ornate fireplace with wood accent wall, original dark wood trim, and refinished hardwood floors.
 
 3 bedrooms | 1 bathroom | Fully renovated kitchen with white shaker cabinets, gas range, stainless dishwasher, farmhouse sink, and subway tile backsplash | Original fireplace | Stained glass window | Barn door | French doors | Original dark wood trim throughout
@@ -136,22 +151,7 @@ Location: South St. Louis 63118 | Easy access to Highway 55 | Minutes to downtow
 
 Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
     houseRules: 'Minimum stay 30 days. Contact for pet policy and occupancy details.',
-  },
-  {
-    propertyEmail: '',
-    propertyEmailName: 'Bannerman Group — Oregon',
-    address: '3169 Oregon',
-    city: 'St. Louis',
-    state: 'MO',
-    zip: '63118',
-    type: '',
-    bedrooms: 0,
-    bathrooms: 0,
-    pricePerMonth: 0,
-    utilitiesIncluded: false,
-    furnishedFinderUrl: '',
-    listingTitle: 'Furnished Home | South St. Louis | 3169 Oregon',
-    description: `Furnished home in South St. Louis 63118. Original hardwood floors, updated bathroom with marble-look tile, bright rooms throughout. Easy access to downtown and major hospital corridors. Minimum stay: 30 days.`,
-    houseRules: 'Minimum stay 30 days. Contact for details.',
+    forSale: false,
+    askingPrice: null,
   },
 ]
