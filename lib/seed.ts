@@ -91,4 +91,27 @@ Utilities + internet included (capped at $150/mo). Fully furnished — move in w
     description: '',
     houseRules: '',
   },
+  {
+    propertyEmail: '',              // fill in — no email assigned yet
+    propertyEmailName: 'Bannerman Group — Keokuk',
+    address: '3110 Keokuk',
+    city: 'St. Louis',
+    state: 'MO',
+    zip: '63118',
+    type: '3BR+/2BA House',
+    bedrooms: 3,
+    bathrooms: 2,
+    pricePerMonth: 0,               // fill in dashboard
+    utilitiesIncluded: false,       // confirm and update
+    furnishedFinderUrl: '',         // not yet listed
+    listingTitle: 'Furnished 3BR+ Home | South St. Louis | Original Hardwoods | Near Hwy 55',
+    description: `Character-rich furnished home in South St. Louis with original hardwood floors, cast iron radiators, and classic architectural details throughout.
+
+3 bedrooms + flex space | 2 bathrooms | Full kitchen with stainless range, dishwasher, and refrigerator | Original hardwood floors throughout | Cast iron radiators | Ceiling fans in every bedroom | Classic black & white tile bathroom | Upper floor with original dark wood banister
+
+Location: South St. Louis 63118 | Easy access to Highway 55 | Minutes to downtown | Near Mercy Hospital and SSM Health corridor
+
+Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
+    houseRules: 'Minimum stay 30 days. Contact for pet policy and occupancy details.',
+  },
 ]
