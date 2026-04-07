@@ -113,4 +113,28 @@ Location: South St. Louis 63118 | Easy access to Highway 55 | Minutes to downtow
 Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
     houseRules: 'Minimum stay 30 days. Contact for pet policy and occupancy details.',
   },
+  {
+    // 3169 Oregon Ave — high-finish renovation, original architectural details
+    propertyEmail: '',              // fill in — no email assigned yet
+    propertyEmailName: 'Bannerman Group — Oregon',
+    address: '3169 Oregon',
+    city: 'St. Louis',
+    state: 'MO',
+    zip: '63118',
+    type: '3BR/1BA House',
+    bedrooms: 3,
+    bathrooms: 1,
+    pricePerMonth: 0,               // fill in dashboard
+    utilitiesIncluded: false,       // confirm and update
+    furnishedFinderUrl: '',
+    listingTitle: 'Renovated 3BR Home | South St. Louis | Original Details | Available Now',
+    description: `Beautifully renovated 3-bedroom home in South St. Louis with original architectural character throughout — stained glass entry vestibule, ornate fireplace with wood accent wall, original dark wood trim, and refinished hardwood floors.
+
+3 bedrooms | 1 bathroom | Fully renovated kitchen with white shaker cabinets, gas range, stainless dishwasher, farmhouse sink, and subway tile backsplash | Original fireplace | Stained glass window | Barn door | French doors | Original dark wood trim throughout
+
+Location: South St. Louis 63118 | Easy access to Highway 55 | Minutes to downtown | Near Mercy Hospital and SSM Health corridor
+
+Fully furnished — move in with just your suitcase. Minimum stay: 30 days.`,
+    houseRules: 'Minimum stay 30 days. Contact for pet policy and occupancy details.',
+  },
 ]
